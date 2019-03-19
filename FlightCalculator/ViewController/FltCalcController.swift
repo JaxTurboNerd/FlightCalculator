@@ -10,8 +10,6 @@ import UIKit
 
 class FltCalcViewController: UIViewController {
     
-    //Mark: Properties
-    
     @IBOutlet weak var inputTime: UITextField!
     
     @IBOutlet weak var pic1Label: UILabel!
@@ -49,8 +47,6 @@ class FltCalcViewController: UIViewController {
     @objc func doneClicked() {
         view.endEditing(true)
     }
-    
-    //MARK: Actions
     
     @IBAction func calculateTime(_ sender: UIButton) {
         
