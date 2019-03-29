@@ -17,16 +17,16 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" alpha="0.65000000000000002" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="NASOC JAX Logo" translatesAutoresizingMaskIntoConstraints="NO" id="Moi-0O-22p">
-                                <rect key="frame" x="16" y="170" width="343" height="327"/>
+                            <imageView userInteractionEnabled="NO" alpha="0.65000000000000002" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" preservesSuperviewLayoutMargins="YES" image="NASOC JAX Logo" translatesAutoresizingMaskIntoConstraints="NO" id="Moi-0O-22p">
+                                <rect key="frame" x="16" y="151" width="304" height="295"/>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="Moi-0O-22p" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="6b4-xA-weQ"/>
-                            <constraint firstItem="Moi-0O-22p" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="8ta-PN-q1X"/>
-                            <constraint firstItem="Moi-0O-22p" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="150" id="oQC-g4-we9"/>
-                            <constraint firstItem="Moi-0O-22p" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="w0k-yP-nPt"/>
+                            <constraint firstItem="Moi-0O-22p" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="131" id="9ok-Sp-FKh"/>
+                            <constraint firstItem="Moi-0O-22p" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="HUn-8V-89T"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Moi-0O-22p" secondAttribute="trailing" constant="16" id="YoR-sX-COi"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="Moi-0O-22p" secondAttribute="bottom" constant="152" id="htK-2i-FiC"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>

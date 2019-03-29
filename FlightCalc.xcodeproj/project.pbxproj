@@ -23,7 +23,7 @@
 		93207779223AAC0200B7C06C /* DesignableLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DesignableLabel.swift; sourceTree = "<group>"; };
 		9320777A223AAC0200B7C06C /* DesignableButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DesignableButton.swift; sourceTree = "<group>"; };
 		9320777D223ABDB600B7C06C /* CustomTextFields.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomTextFields.swift; sourceTree = "<group>"; };
-		93FAC361219E1986006D6EA8 /* FlightCalculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FlightCalculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		93FAC361219E1986006D6EA8 /* FlightCalc.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FlightCalc.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		93FAC364219E1986006D6EA8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		93FAC366219E1986006D6EA8 /* FltCalcController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FltCalcController.swift; sourceTree = "<group>"; };
 		93FAC369219E1986006D6EA8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -83,7 +83,7 @@
 		93FAC362219E1986006D6EA8 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				93FAC361219E1986006D6EA8 /* FlightCalculator.app */,
+				93FAC361219E1986006D6EA8 /* FlightCalc.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -106,9 +106,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		93FAC360219E1986006D6EA8 /* FlightCalculator */ = {
+		93FAC360219E1986006D6EA8 /* FlightCalc */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 93FAC373219E1989006D6EA8 /* Build configuration list for PBXNativeTarget "FlightCalculator" */;
+			buildConfigurationList = 93FAC373219E1989006D6EA8 /* Build configuration list for PBXNativeTarget "FlightCalc" */;
 			buildPhases = (
 				93FAC35D219E1986006D6EA8 /* Sources */,
 				93FAC35E219E1986006D6EA8 /* Frameworks */,
@@ -118,9 +118,9 @@
 			);
 			dependencies = (
 			);
-			name = FlightCalculator;
+			name = FlightCalc;
 			productName = FlightCalculator;
-			productReference = 93FAC361219E1986006D6EA8 /* FlightCalculator.app */;
+			productReference = 93FAC361219E1986006D6EA8 /* FlightCalc.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -138,7 +138,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 93FAC35C219E1986006D6EA8 /* Build configuration list for PBXProject "FlightCalculator" */;
+			buildConfigurationList = 93FAC35C219E1986006D6EA8 /* Build configuration list for PBXProject "FlightCalc" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -151,7 +151,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				93FAC360219E1986006D6EA8 /* FlightCalculator */,
+				93FAC360219E1986006D6EA8 /* FlightCalc */,
 			);
 		};
 /* End PBXProject section */
@@ -363,7 +363,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		93FAC35C219E1986006D6EA8 /* Build configuration list for PBXProject "FlightCalculator" */ = {
+		93FAC35C219E1986006D6EA8 /* Build configuration list for PBXProject "FlightCalc" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				93FAC371219E1989006D6EA8 /* Debug */,
@@ -372,7 +372,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		93FAC373219E1989006D6EA8 /* Build configuration list for PBXNativeTarget "FlightCalculator" */ = {
+		93FAC373219E1989006D6EA8 /* Build configuration list for PBXNativeTarget "FlightCalc" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				93FAC374219E1989006D6EA8 /* Debug */,
