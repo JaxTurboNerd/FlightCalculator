@@ -18,6 +18,7 @@ class MaxLengthTextField: UITextField, UITextFieldDelegate {
         self.layer.cornerRadius = 5.0
         self.layer.borderColor = UIColor.gray.cgColor
         self.layer.borderWidth = 2.0
+        //self.textColor = UIColor.red
     }
     
     @IBInspectable var maxLength: Int {
@@ -48,11 +49,6 @@ class MaxLengthTextField: UITextField, UITextFieldDelegate {
         return text.count <= maxLength
     }
     
-    //Keyboard DONE button will dismiss the keyboard:
-    func textFieldShouldReturn(_ textField: UITextField) -> Bool {
-        textField.resignFirstResponder()
-        return true
-    }
 }
 
 class AllowedCharsTextField: MaxLengthTextField {
@@ -69,6 +65,7 @@ class AllowedCharsTextField: MaxLengthTextField {
         return super.allowedIntoTextField(text: text) &&
             text.containsOnlyCharactersIn(matchCharacters: allowedChars)
     }
+    
 }
 
 private extension String {

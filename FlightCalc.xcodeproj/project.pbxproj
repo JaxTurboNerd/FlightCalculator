@@ -7,31 +7,34 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9304E1C325819F57009DB6B9 /* CustomTextFields.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9304E1C225819F57009DB6B9 /* CustomTextFields.swift */; };
 		9320777B223AAC0200B7C06C /* DesignableLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93207779223AAC0200B7C06C /* DesignableLabel.swift */; };
-		9320777C223AAC0200B7C06C /* DesignableButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9320777A223AAC0200B7C06C /* DesignableButton.swift */; };
-		9320777E223ABDB600B7C06C /* CustomTextFields.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9320777D223ABDB600B7C06C /* CustomTextFields.swift */; };
+		9377FC0C228B6C53000CD733 /* AlertFunction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9377FC0B228B6C53000CD733 /* AlertFunction.swift */; };
+		9377FC0F228B6C80000CD733 /* ThreePilotViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9377FC0D228B6C80000CD733 /* ThreePilotViewController.swift */; };
+		9377FC10228B6C80000CD733 /* FourPilotViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9377FC0E228B6C80000CD733 /* FourPilotViewController.swift */; };
+		9377FC12228B6CE6000CD733 /* FlightCalcModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9377FC11228B6CE6000CD733 /* FlightCalcModel.swift */; };
+		9377FC14228B6D1A000CD733 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9377FC13228B6D1A000CD733 /* Main.storyboard */; };
+		9384DA052587F8FF00E60476 /* DesignableButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9384DA032587F8FF00E60476 /* DesignableButton.swift */; };
 		93FAC365219E1986006D6EA8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93FAC364219E1986006D6EA8 /* AppDelegate.swift */; };
-		93FAC367219E1986006D6EA8 /* FltCalcController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93FAC366219E1986006D6EA8 /* FltCalcController.swift */; };
-		93FAC36A219E1986006D6EA8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 93FAC368219E1986006D6EA8 /* Main.storyboard */; };
 		93FAC36C219E1989006D6EA8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 93FAC36B219E1989006D6EA8 /* Assets.xcassets */; };
 		93FAC36F219E1989006D6EA8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 93FAC36D219E1989006D6EA8 /* LaunchScreen.storyboard */; };
-		93FAC379219E1BE3006D6EA8 /* AlertFunction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93FAC378219E1BE3006D6EA8 /* AlertFunction.swift */; };
-		93FAC37B219E1C4E006D6EA8 /* FlightCalcModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93FAC37A219E1C4E006D6EA8 /* FlightCalcModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9304E1C225819F57009DB6B9 /* CustomTextFields.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomTextFields.swift; sourceTree = "<group>"; };
 		93207779223AAC0200B7C06C /* DesignableLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DesignableLabel.swift; sourceTree = "<group>"; };
-		9320777A223AAC0200B7C06C /* DesignableButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DesignableButton.swift; sourceTree = "<group>"; };
-		9320777D223ABDB600B7C06C /* CustomTextFields.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomTextFields.swift; sourceTree = "<group>"; };
+		9377FC0B228B6C53000CD733 /* AlertFunction.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlertFunction.swift; sourceTree = "<group>"; };
+		9377FC0D228B6C80000CD733 /* ThreePilotViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThreePilotViewController.swift; sourceTree = "<group>"; };
+		9377FC0E228B6C80000CD733 /* FourPilotViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FourPilotViewController.swift; sourceTree = "<group>"; };
+		9377FC11228B6CE6000CD733 /* FlightCalcModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlightCalcModel.swift; sourceTree = "<group>"; };
+		9377FC13228B6D1A000CD733 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		9384DA022587F8FF00E60476 /* DesignableLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DesignableLabel.swift; sourceTree = "<group>"; };
+		9384DA032587F8FF00E60476 /* DesignableButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DesignableButton.swift; sourceTree = "<group>"; };
 		93FAC361219E1986006D6EA8 /* FlightCalc.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FlightCalc.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		93FAC364219E1986006D6EA8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		93FAC366219E1986006D6EA8 /* FltCalcController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FltCalcController.swift; sourceTree = "<group>"; };
-		93FAC369219E1986006D6EA8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		93FAC36B219E1989006D6EA8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		93FAC36E219E1989006D6EA8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		93FAC370219E1989006D6EA8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		93FAC378219E1BE3006D6EA8 /* AlertFunction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertFunction.swift; sourceTree = "<group>"; };
-		93FAC37A219E1C4E006D6EA8 /* FlightCalcModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlightCalcModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,7 +51,8 @@
 		93207776223AAB4C00B7C06C /* ViewController */ = {
 			isa = PBXGroup;
 			children = (
-				93FAC366219E1986006D6EA8 /* FltCalcController.swift */,
+				9377FC0D228B6C80000CD733 /* ThreePilotViewController.swift */,
+				9377FC0E228B6C80000CD733 /* FourPilotViewController.swift */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -56,7 +60,7 @@
 		93207777223AAB5C00B7C06C /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				93FAC37A219E1C4E006D6EA8 /* FlightCalcModel.swift */,
+				9377FC11228B6CE6000CD733 /* FlightCalcModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -64,10 +68,11 @@
 		93207778223AAB6400B7C06C /* Custom Files */ = {
 			isa = PBXGroup;
 			children = (
-				9320777D223ABDB600B7C06C /* CustomTextFields.swift */,
-				9320777A223AAC0200B7C06C /* DesignableButton.swift */,
+				9384DA032587F8FF00E60476 /* DesignableButton.swift */,
+				9384DA022587F8FF00E60476 /* DesignableLabel.swift */,
+				9304E1C225819F57009DB6B9 /* CustomTextFields.swift */,
+				9377FC0B228B6C53000CD733 /* AlertFunction.swift */,
 				93207779223AAC0200B7C06C /* DesignableLabel.swift */,
-				93FAC378219E1BE3006D6EA8 /* AlertFunction.swift */,
 			);
 			path = "Custom Files";
 			sourceTree = "<group>";
@@ -91,7 +96,7 @@
 		93FAC363219E1986006D6EA8 /* FlightCalculator */ = {
 			isa = PBXGroup;
 			children = (
-				93FAC368219E1986006D6EA8 /* Main.storyboard */,
+				9377FC13228B6D1A000CD733 /* Main.storyboard */,
 				93FAC364219E1986006D6EA8 /* AppDelegate.swift */,
 				93207776223AAB4C00B7C06C /* ViewController */,
 				93207777223AAB5C00B7C06C /* Model */,
@@ -130,11 +135,12 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1010;
-				LastUpgradeCheck = 1010;
+				LastUpgradeCheck = 1220;
 				ORGANIZATIONNAME = "Gregory Boyd";
 				TargetAttributes = {
 					93FAC360219E1986006D6EA8 = {
 						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1100;
 					};
 				};
 			};
@@ -161,9 +167,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9377FC14228B6D1A000CD733 /* Main.storyboard in Resources */,
 				93FAC36F219E1989006D6EA8 /* LaunchScreen.storyboard in Resources */,
 				93FAC36C219E1989006D6EA8 /* Assets.xcassets in Resources */,
-				93FAC36A219E1986006D6EA8 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -174,27 +180,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				93FAC379219E1BE3006D6EA8 /* AlertFunction.swift in Sources */,
-				9320777E223ABDB600B7C06C /* CustomTextFields.swift in Sources */,
-				93FAC367219E1986006D6EA8 /* FltCalcController.swift in Sources */,
-				9320777C223AAC0200B7C06C /* DesignableButton.swift in Sources */,
-				93FAC37B219E1C4E006D6EA8 /* FlightCalcModel.swift in Sources */,
+				9304E1C325819F57009DB6B9 /* CustomTextFields.swift in Sources */,
+				9377FC0F228B6C80000CD733 /* ThreePilotViewController.swift in Sources */,
+				9377FC12228B6CE6000CD733 /* FlightCalcModel.swift in Sources */,
+				9377FC10228B6C80000CD733 /* FourPilotViewController.swift in Sources */,
+				9377FC0C228B6C53000CD733 /* AlertFunction.swift in Sources */,
 				93FAC365219E1986006D6EA8 /* AppDelegate.swift in Sources */,
 				9320777B223AAC0200B7C06C /* DesignableLabel.swift in Sources */,
+				9384DA052587F8FF00E60476 /* DesignableButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		93FAC368219E1986006D6EA8 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				93FAC369219E1986006D6EA8 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		93FAC36D219E1989006D6EA8 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -232,6 +231,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -257,13 +257,14 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
 			};
 			name = Debug;
 		};
@@ -293,6 +294,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -312,12 +314,13 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 4.2;
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
@@ -327,16 +330,18 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 6;
 				DEVELOPMENT_TEAM = YKY42GMVFE;
 				INFOPLIST_FILE = FlightCalculator/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = 2.3;
 				PRODUCT_BUNDLE_IDENTIFIER = com.GregoryBoyd.FlightCalculator;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
@@ -346,16 +351,18 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 6;
 				DEVELOPMENT_TEAM = YKY42GMVFE;
 				INFOPLIST_FILE = FlightCalculator/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = 2.3;
 				PRODUCT_BUNDLE_IDENTIFIER = com.GregoryBoyd.FlightCalculator;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
