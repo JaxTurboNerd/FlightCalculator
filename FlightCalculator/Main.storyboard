@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19455" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="49e-Tb-3d3">
-    <device id="retina4_7" orientation="portrait" appearance="light"/>
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19454"/>
@@ -14,22 +14,22 @@
             <objects>
                 <viewController id="9pv-A4-QxB" customClass="ThreePilotViewController" customModule="FlightCalc" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="tsR-hK-woN">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleAspectFill" axis="vertical" distribution="equalSpacing" alignment="center" spacing="50" translatesAutoresizingMaskIntoConstraints="NO" id="0bA-P3-hIK">
-                                <rect key="frame" x="33" y="25" width="309" height="558"/>
+                                <rect key="frame" x="52.5" y="0.0" width="309" height="896"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" distribution="equalSpacing" alignment="center" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="st2-Ed-Jbz">
                                         <rect key="frame" x="36" y="0.0" width="237.5" height="46.5"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" horizontalCompressionResistancePriority="751" text="Flight Time:" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="A5w-qi-Tcn">
-                                                <rect key="frame" x="0.0" y="5" width="154.5" height="37"/>
+                                                <rect key="frame" x="0.0" y="4.5" width="154.5" height="37"/>
                                                 <fontDescription key="fontDescription" style="UICTFontTextStyleTitle0"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <textField opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="fill" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="0.0" textAlignment="center" clearsOnBeginEditing="YES" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" minimumFontSize="15" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="pue-bF-fSk" customClass="AllowedCharsTextField" customModule="FlightCalc" customModuleProvider="target">
+                                            <textField opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="fill" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="0.0" textAlignment="center" clearsOnBeginEditing="YES" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" minimumFontSize="14" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="pue-bF-fSk" customClass="AllowedCharsTextField" customModule="FlightCalc" customModuleProvider="target">
                                                 <rect key="frame" x="164.5" y="0.0" width="73" height="46.5"/>
                                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                                 <color key="tintColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -46,10 +46,10 @@
                                         </subviews>
                                     </stackView>
                                     <stackView opaque="NO" contentMode="scaleToFill" distribution="fillProportionally" alignment="center" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="vyW-c1-3hQ">
-                                        <rect key="frame" x="0.0" y="180.5" width="309" height="194"/>
+                                        <rect key="frame" x="0.0" y="96.5" width="309" height="294"/>
                                         <subviews>
                                             <stackView opaque="NO" contentMode="scaleToFill" placeholderIntrinsicWidth="88.5" placeholderIntrinsicHeight="155" axis="vertical" distribution="fillEqually" spacing="14" translatesAutoresizingMaskIntoConstraints="NO" id="aOA-x4-AAQ">
-                                                <rect key="frame" x="0.0" y="2" width="91.5" height="190"/>
+                                                <rect key="frame" x="0.0" y="52" width="91.5" height="190"/>
                                                 <subviews>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" text="Pilot 0:" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Oas-GL-dSW">
                                                         <rect key="frame" x="0.0" y="0.0" width="91.5" height="37"/>
@@ -105,7 +105,7 @@
                                                 </subviews>
                                             </stackView>
                                             <stackView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="249" placeholderIntrinsicWidth="60.5" placeholderIntrinsicHeight="155" axis="vertical" distribution="fillEqually" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="eos-5k-wXQ">
-                                                <rect key="frame" x="99.5" y="0.0" width="64.5" height="194"/>
+                                                <rect key="frame" x="99.5" y="50" width="64.5" height="194"/>
                                                 <subviews>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" placeholderIntrinsicWidth="60.5" placeholderIntrinsicHeight="26.5" text="PIC" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="22" translatesAutoresizingMaskIntoConstraints="NO" id="xyU-3i-ygY">
                                                         <rect key="frame" x="0.0" y="0.0" width="64.5" height="33.5"/>
@@ -171,7 +171,7 @@
                                                 </constraints>
                                             </stackView>
                                             <stackView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="249" axis="vertical" distribution="fillEqually" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="Zqj-8S-bUu">
-                                                <rect key="frame" x="172" y="0.0" width="64.5" height="194"/>
+                                                <rect key="frame" x="172" y="50" width="64.5" height="194"/>
                                                 <subviews>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="SIC" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="22" translatesAutoresizingMaskIntoConstraints="NO" id="wvm-E6-Dnz">
                                                         <rect key="frame" x="0.0" y="0.0" width="64.5" height="33.5"/>
@@ -237,7 +237,7 @@
                                                 </constraints>
                                             </stackView>
                                             <stackView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="249" axis="vertical" distribution="fillEqually" spacing="21" translatesAutoresizingMaskIntoConstraints="NO" id="hwh-8m-Mhl">
-                                                <rect key="frame" x="244.5" y="0.5" width="64.5" height="193"/>
+                                                <rect key="frame" x="244.5" y="50.5" width="64.5" height="193"/>
                                                 <subviews>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="751" text="CRW" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="22" translatesAutoresizingMaskIntoConstraints="NO" id="GYe-pX-BM1">
                                                         <rect key="frame" x="0.0" y="0.0" width="64.5" height="32.5"/>
@@ -316,9 +316,13 @@
                                                 </subviews>
                                             </stackView>
                                         </subviews>
+                                        <constraints>
+                                            <constraint firstItem="eos-5k-wXQ" firstAttribute="top" relation="greaterThanOrEqual" secondItem="vyW-c1-3hQ" secondAttribute="top" constant="50" id="HFz-Kg-bhO"/>
+                                            <constraint firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="eos-5k-wXQ" secondAttribute="bottom" constant="50" id="goz-Ga-CIw"/>
+                                        </constraints>
                                     </stackView>
                                     <stackView opaque="NO" contentMode="scaleToFill" alignment="center" spacing="70" translatesAutoresizingMaskIntoConstraints="NO" id="Ndv-bx-Yde">
-                                        <rect key="frame" x="7" y="508" width="295" height="50"/>
+                                        <rect key="frame" x="7" y="440.5" width="295" height="50"/>
                                         <subviews>
                                             <button opaque="NO" alpha="0.80000000000000004" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vC2-La-Jbk" customClass="DesignableButton" customModule="FlightCalc" customModuleProvider="target">
                                                 <rect key="frame" x="0.0" y="0.0" width="100" height="50"/>
@@ -377,8 +381,7 @@
                         <color key="backgroundColor" systemColor="systemGray5Color"/>
                         <constraints>
                             <constraint firstItem="0bA-P3-hIK" firstAttribute="centerX" secondItem="tsR-hK-woN" secondAttribute="centerX" id="MDf-CW-CWU"/>
-                            <constraint firstItem="0bA-P3-hIK" firstAttribute="top" secondItem="PQr-Ze-W5v" secondAttribute="top" constant="25" id="fod-OE-RgL"/>
-                            <constraint firstItem="PQr-Ze-W5v" firstAttribute="bottom" secondItem="0bA-P3-hIK" secondAttribute="bottom" constant="35" id="pPE-1a-Qgt"/>
+                            <constraint firstItem="0bA-P3-hIK" firstAttribute="centerY" secondItem="PQr-Ze-W5v" secondAttribute="centerY" id="efj-uH-E8B"/>
                         </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="Three Pilot" image="3Person" id="acW-dT-cKf"/>
@@ -404,23 +407,23 @@
             <objects>
                 <viewController id="8rJ-Kc-sve" customClass="FourPilotViewController" customModule="FlightCalc" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="QS5-Rx-YEW">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleAspectFill" axis="vertical" distribution="fillProportionally" alignment="center" spacing="50" translatesAutoresizingMaskIntoConstraints="NO" id="X21-6z-Nn0">
-                                <rect key="frame" x="33" y="25" width="309" height="558"/>
+                                <rect key="frame" x="52.5" y="226" width="309" height="444"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" distribution="equalSpacing" alignment="center" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="IFg-Tu-Umk">
-                                        <rect key="frame" x="36" y="0.0" width="237.5" height="58.5"/>
+                                        <rect key="frame" x="36" y="0.0" width="237.5" height="46.5"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" horizontalCompressionResistancePriority="751" text="Flight Time:" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="eJP-ap-Fvn">
-                                                <rect key="frame" x="0.0" y="10.5" width="154.5" height="37"/>
+                                                <rect key="frame" x="0.0" y="5" width="154.5" height="37"/>
                                                 <fontDescription key="fontDescription" style="UICTFontTextStyleTitle0"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <textField opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="fill" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="0.0" textAlignment="center" clearsOnBeginEditing="YES" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" minimumFontSize="15" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="XKn-qW-99E" customClass="AllowedCharsTextField" customModule="FlightCalc" customModuleProvider="target">
-                                                <rect key="frame" x="164.5" y="6" width="73" height="46.5"/>
+                                                <rect key="frame" x="164.5" y="0.0" width="73" height="46.5"/>
                                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                                 <color key="tintColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <fontDescription key="fontDescription" style="UICTFontTextStyleTitle0"/>
@@ -436,10 +439,10 @@
                                         </subviews>
                                     </stackView>
                                     <stackView opaque="NO" contentMode="scaleToFill" alignment="center" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="JDn-YM-wNd">
-                                        <rect key="frame" x="0.0" y="108.5" width="309" height="311"/>
+                                        <rect key="frame" x="0.0" y="96.5" width="309" height="247.5"/>
                                         <subviews>
                                             <stackView opaque="NO" contentMode="scaleToFill" placeholderIntrinsicWidth="88.5" placeholderIntrinsicHeight="155" axis="vertical" distribution="fillEqually" spacing="13" translatesAutoresizingMaskIntoConstraints="NO" id="kjI-Js-hfS">
-                                                <rect key="frame" x="0.0" y="37" width="91.5" height="237"/>
+                                                <rect key="frame" x="0.0" y="5.5" width="91.5" height="237"/>
                                                 <subviews>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" text="Pilot 0:" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="QhS-fA-nzE">
                                                         <rect key="frame" x="0.0" y="0.0" width="91.5" height="37"/>
@@ -501,7 +504,7 @@
                                                 </subviews>
                                             </stackView>
                                             <stackView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="249" placeholderIntrinsicWidth="60.5" placeholderIntrinsicHeight="155" axis="vertical" distribution="fillEqually" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="dVi-CJ-Ij2">
-                                                <rect key="frame" x="99.5" y="31.5" width="64.5" height="247.5"/>
+                                                <rect key="frame" x="99.5" y="0.0" width="64.5" height="247.5"/>
                                                 <subviews>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" placeholderIntrinsicWidth="60.5" placeholderIntrinsicHeight="26.5" text="PIC" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="22" translatesAutoresizingMaskIntoConstraints="NO" id="zyX-x7-olj">
                                                         <rect key="frame" x="0.0" y="0.0" width="64.5" height="33.5"/>
@@ -584,7 +587,7 @@
                                                 </constraints>
                                             </stackView>
                                             <stackView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="249" axis="vertical" distribution="fillEqually" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="SYh-Fh-ttc">
-                                                <rect key="frame" x="172" y="31.5" width="64.5" height="247.5"/>
+                                                <rect key="frame" x="172" y="0.0" width="64.5" height="247.5"/>
                                                 <subviews>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="SIC" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="22" translatesAutoresizingMaskIntoConstraints="NO" id="jA7-qA-BJV">
                                                         <rect key="frame" x="0.0" y="0.0" width="64.5" height="33.5"/>
@@ -667,7 +670,7 @@
                                                 </constraints>
                                             </stackView>
                                             <stackView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="249" axis="vertical" distribution="fillEqually" spacing="21" translatesAutoresizingMaskIntoConstraints="NO" id="6mC-an-ncg">
-                                                <rect key="frame" x="244.5" y="32" width="64.5" height="246.5"/>
+                                                <rect key="frame" x="244.5" y="0.5" width="64.5" height="246.5"/>
                                                 <subviews>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="751" text="CRW" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="22" translatesAutoresizingMaskIntoConstraints="NO" id="9D1-qA-WLv">
                                                         <rect key="frame" x="0.0" y="0.0" width="64.5" height="32.5"/>
@@ -765,10 +768,10 @@
                                         </subviews>
                                     </stackView>
                                     <stackView opaque="NO" contentMode="scaleToFill" alignment="center" spacing="70" translatesAutoresizingMaskIntoConstraints="NO" id="ae5-JZ-b6P">
-                                        <rect key="frame" x="7" y="469.5" width="295" height="88.5"/>
+                                        <rect key="frame" x="7" y="394" width="295" height="50"/>
                                         <subviews>
                                             <button opaque="NO" alpha="0.80000000000000004" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hKx-PJ-0Jh" customClass="DesignableButton" customModule="FlightCalc" customModuleProvider="target">
-                                                <rect key="frame" x="0.0" y="19" width="100" height="50"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="100" height="50"/>
                                                 <color key="backgroundColor" systemColor="systemYellowColor"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="100" id="6zn-r2-gUo"/>
@@ -791,7 +794,7 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" alpha="0.80000000000000004" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Fhg-pg-TkD" customClass="DesignableButton" customModule="FlightCalc" customModuleProvider="target">
-                                                <rect key="frame" x="170" y="19" width="125" height="50"/>
+                                                <rect key="frame" x="170" y="0.0" width="125" height="50"/>
                                                 <color key="backgroundColor" systemColor="systemGreenColor"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="125" id="99U-fu-3WB"/>
@@ -817,14 +820,16 @@
                                         </subviews>
                                     </stackView>
                                 </subviews>
+                                <constraints>
+                                    <constraint firstItem="JDn-YM-wNd" firstAttribute="top" relation="greaterThanOrEqual" secondItem="IFg-Tu-Umk" secondAttribute="bottom" priority="999" constant="100" id="BFI-t0-iy5"/>
+                                </constraints>
                             </stackView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="O1u-W8-tvY"/>
                         <color key="backgroundColor" systemColor="systemGray5Color"/>
                         <constraints>
-                            <constraint firstItem="O1u-W8-tvY" firstAttribute="bottom" secondItem="X21-6z-Nn0" secondAttribute="bottom" constant="35" id="BV6-kE-hUc"/>
                             <constraint firstItem="X21-6z-Nn0" firstAttribute="centerX" secondItem="QS5-Rx-YEW" secondAttribute="centerX" id="Ich-S1-T8G"/>
-                            <constraint firstItem="X21-6z-Nn0" firstAttribute="top" secondItem="O1u-W8-tvY" secondAttribute="top" constant="25" id="OyW-6G-0ce"/>
+                            <constraint firstItem="X21-6z-Nn0" firstAttribute="centerY" secondItem="QS5-Rx-YEW" secondAttribute="centerY" id="iXO-lM-Tf7"/>
                         </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="Four Pilot" image="4Person" id="cPa-gy-q4n"/>
