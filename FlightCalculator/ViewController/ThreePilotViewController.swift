@@ -46,6 +46,7 @@ class ThreePilotViewController: UIViewController {
         //dismiss keyboard by tapping anywhere
         self.view.addGestureRecognizer(UITapGestureRecognizer(target:
             self.view, action: #selector(UIView.endEditing(_:))))
+        
     }
     
     @objc func doneClicked() {
