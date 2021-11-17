@@ -1,6 +1,6 @@
 # Pilot Flight Calculator
-This iOS app calculates the PIC, SIC & Crew flight times for a 3-pilot or 4-pilot crew.
-This app can be downloaded on the Apple App Store.
+This iOS app calculates the PIC, SIC & Crew flight times for a 3-pilot or 4-pilot crew.<br/>
+This app can be downloaded on the Apple App Store.<br/>
 Now compatable with iOS Dark Mode!
 
 ## How To Use the App
